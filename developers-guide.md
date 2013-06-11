@@ -9,7 +9,9 @@ _Please help out by updating this page_
 
 ### Operating System
 
-It works on Mac OSX. Probably works without any changes or issues on Linux. Follow this [Windows installation guideline]({{site.url}}/install-jekyll-on-windows) for a detailed "How to install Ruby and Jekyll on Windows".
+It works on Mac OSX.
+Probably works without any changes or issues on Linux.
+Follow this [Windows installation guideline]({{site.url}}/install-jekyll-on-windows) for a detailed "How to install Ruby and Jekyll on Windows".
 
 ## Installation
 
@@ -48,7 +50,9 @@ Open a terminal window, cd into the project folder and run jekyll from the proje
 jekyll build --watch
 {% endhighlight %}
 
-Leave this window running while you work. Any time you change a file, jekyll will rerender it into the `_site` folder. Changes to \_config.yml will only be recognized after a restart of the jekyll server.
+Leave this window running while you work.
+Any time you change a file, jekyll will rerender it into the `_site` folder.
+Changes to \_config.yml will only be recognized after a restart of the jekyll server.
 
 ### Run serve
 
@@ -63,8 +67,11 @@ text[^1] ...
 [^1]: A note about my foot.
 [^5]: A note about my foot.
 
-This will start a webserver in the `_site` folder. Open a browser and visit `http://localhost:4000/` and you should see the site.
+This will start a webserver in the `_site` folder.
+Open a browser and visit `http://localhost:4000/` and you should see the site.
 
 ## Minutiae and Other Trivialities
 
-jekyll can take a second or two to catch up when you save a file. If you edit a file and don't see the changes in your browser, give it a second or two and try again. You may also see Maruku warnings, but as long as it prints `Successfully generated site` you should be alright.
+jekyll can take a second or two to catch up when you save a file.
+If you edit a file and don't see the changes in your browser, give it a second or two and try again.
+You may also see Maruku warnings, but as long as it prints `Successfully generated site` you should be alright.

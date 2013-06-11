@@ -9,13 +9,6 @@ Formatierung des Handbuchs
 * Unterpunkte sind zur besseren Übersicht ***kursiv und unterstrichen***
 * Wichtige Passagen sind *kursiv*
 
-Hier könnte jetzt noch viel mehr Text stehen.
-Zum Beispiel: Dieses ist das Haus vom Nikolaus.
-Nebenan, das des Weihnachtsmanns.
-So kommt eins zum anderen und das andere zum ersten.
-Stück für Stück entsteht ein neuer Paragraph.
-
-
 <div class="tip" markdown="1" >
 Tipps und Hinweise sind eingerückt
 </div>

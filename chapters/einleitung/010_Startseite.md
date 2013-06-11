@@ -16,8 +16,11 @@ Die Startseite der Lernplattform (siehe Abbildung) ist in verschiedene Blöcke a
 Abbildung:  Startseite der Lernplattform {{ site.moodle_name}}
 
 #####Legende#####
-1. Sind Sie angemeldet, erscheint hier der Nutzername. Klicken Sie auf den Namen, um das Profil anzuzeigen.
+1. Sind Sie angemeldet, erscheint hier der Nutzername.
+Klicken Sie auf den Namen, um das Profil anzuzeigen.
 5. Der Block **Navigation** erlaubt schnelle Zugriffe auf *Eigene Kurse* und Dateien.
-2. Der Block **Einstellungen**: Hier können Sie Ihr Profil ändern. Kontextbezogen, dass heißt innerhalb eines Kurses oder innerhalb einer Aktivität, erscheinen hier weitere Funktionen um etwa den angezeigten Kurs oder die angezeigte Aktivität zu bearbeiten.
+2. Der Block **Einstellungen**: Hier können Sie Ihr Profil ändern.
+Kontextbezogen, dass heißt innerhalb eines Kurses oder innerhalb einer Aktivität, erscheinen hier weitere Funktionen um etwa den angezeigten Kurs oder die angezeigte Aktivität zu bearbeiten.
 3. In diesem Bereich wird der Inhalt (engl. Content) bereitgestellt.
-4. *Nachrichten der Webseite*: Über aktuelle Ereignisse, anstehende Wartungsarbeiten und evtl. Störungen werden Sie in diesem Bereich informiert. 
+4. *Nachrichten der Webseite*: Über aktuelle Ereignisse, anstehende Wartungsarbeiten und evtl.
+Störungen werden Sie in diesem Bereich informiert. 
