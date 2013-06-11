@@ -18,7 +18,7 @@
         <div class="dimmed">Kapitelübersicht</div>
         
         <ul class="subchapter-list">
-        {% for page in site.pages %}
+        {% for page in (site.pages | sort:"name") %}
           {% if page.url contains url %}
             {% unless page.url == indexurl %}
           <li><a href="{{ site.url }}/{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>

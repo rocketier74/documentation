@@ -580,6 +580,10 @@ pre > code { display: block; }
     width: auto;
 }
 
+.content .footnotes p {
+    padding: 0px;
+    margin: 0px;
+}
 
 
 

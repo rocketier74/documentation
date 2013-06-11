@@ -11,13 +11,13 @@ title: Cookbook
       {% capture url %}/chapters/{{ chapter | replace: ' ', '_' | downcase }}{% endcapture %}
       {% capture indexurl %}{{ url }}/index.html{% endcapture %}
       <li class="chapter">
-         {% for site_page in site.pages %}
+         {% for site_page in (site.pages | sort:"name") %}
              {% if site_page.url == indexurl %}
                  <h4><a class="chapter-title" href="{{ site.url }}{{ indexurl }}">{{ site_page.title }}</a></h4>
              {% endif %}
           {% endfor %}
         <ul class="pseudo-list recipes-list">
-          {% for page in site.pages %}
+          {% for page in (site.pages | sort:"name") %}
             {% if page.url contains url %}
               {% unless page.url == indexurl %}
                 <li class="list-item recipe"><a class="recipe-title" href="{{ site.url }}/{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>

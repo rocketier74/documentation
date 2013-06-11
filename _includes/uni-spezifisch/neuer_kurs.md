@@ -56,8 +56,8 @@ Hierbei helfen Informationen wie z. B. die Unterscheidung zwischen Bachelor- ode
 Sie brauchen ihren Antrag nicht inhaltlich begründen!
 
 Beispiele:
-* Fachbereich 2, Katholische Religion; Seminar; Aufbaumodule, Fachwissenschaft-liches Aufbaumodul; verantwortlich: Max Musterdozent
-* Fachbereich 4, Wirtschaftswissenschaften; Seminar; Institut für Wirtschaftsinfor-matik; verantwortlich: Max Musterdozent
+* Fachbereich 2, Katholische Religion; Seminar; Aufbaumodule, Fachwissenschaftliches Aufbaumodul; verantwortlich: Max Musterdozent
+* Fachbereich 4, Wirtschaftswissenschaften; Seminar; Institut für Wirtschaftsinformatik; verantwortlich: Max Musterdozent
 * Fachbereich 6, Institut für Erziehungswissenschaften; Vorlesung; Bachelor; ver-antwortlich: Max Musterdozent
 
 ***Um den Antrag abzuschicken klicken Sie auf Kurs beantragen.***
