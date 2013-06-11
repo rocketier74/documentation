@@ -1,0 +1,8 @@
+.rvmrc
+_site
+
+*.swp
+*.swo
+
+.DS_Store
+*.lnk

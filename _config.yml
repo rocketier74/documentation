@@ -1,0 +1,32 @@
+pygments: false
+lsi: false
+
+url: http://learnweb.github.io/documentation
+
+exclude:
+  - README.md
+  - CNAME
+  - TODO.md
+  - script
+  - Procfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE-CC-BY.textile
+  - cmd.lnk
+timezone: Europe/Berlin
+
+github_repo: https://github.com/learnweb/documentation
+github_git: git://github.com/learnweb/documentation.git
+
+moodle_name: Learnweb
+moodle_url: https://www.uni-muenster.de/LearnWeb
+moodle_sso: https://sso.uni-muenster.de/LearnWeb
+moodle_version: 24
+
+university_name: Westfälische Wilhelms-Universität Münster
+university_name_short: WWU Münster
+
+chapters:
+- einleitung
+- kurs grundlagen
+- dateiverwaltung
