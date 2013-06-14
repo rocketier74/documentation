@@ -1,4 +1,5 @@
 <!doctype html>
+{% assign site_pages = (site.pages | sort:"name") %}
 <html>
   {% include head.html %}
   <body>
@@ -18,7 +19,7 @@
         <div class="dimmed">Kapitelübersicht</div>
         
         <ul class="subchapter-list">
-        {% for page in (site.pages | sort:"name") %}
+        {% for page in site_pages %}
           {% if page.url contains url %}
             {% unless page.url == indexurl %}
           <li><a href="{{ site.url }}/{{ page.url | replace: '.html', '' }}">{{ page.title }}</a></li>

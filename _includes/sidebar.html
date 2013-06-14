@@ -1,3 +1,4 @@
+{% assign site_pages = (site.pages | sort:"name") %}
 <aside id="sidebar">
 
   <section class="sidebar-block block-short">
@@ -14,13 +15,13 @@
         {% capture url %}/chapters/{{ chapter | replace: ' ', '_' | downcase }}{% endcapture %}
         {% capture indexurl %}{{ url }}/index.html{% endcapture %}
         <li class="chapter">
-          {% for site_page in (site.pages | sort:"name") %}
+          {% for site_page in site_pages %}
              {% if site_page.url == indexurl %}
                 <div class="sidebar-subtitle{% if page.url == indexurl %} page-active{% endif %}"><strong><a class="chapter-title" href="{{ site.url }}{{ indexurl }}">{{ site_page.title }}</a></strong></div>
              {% endif %}
           {% endfor %}
           <ul class="pseudo-list recipes-list">
-            {% for site_page in (site.pages | sort:"name") %}
+            {% for site_page in site_pages %}
               {% if site_page.url contains url %}
                 {% unless site_page.url == indexurl %}
                   <li class="list-item recipe{% if page.url == site_page.url %} page-active{% endif %}"><a class="recipe-title" href="{{ site.url}}{{ site_page.url | replace: '.html', '.html' }}">{{ site_page.title }}</a></li>
