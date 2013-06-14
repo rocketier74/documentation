@@ -1,7 +1,7 @@
 pygments: false
 lsi: false
 
-url: http://learnweb.github.io/documentation
+url: /documentation
 
 exclude:
   - README.md
