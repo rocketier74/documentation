@@ -25,9 +25,10 @@ How To Install Ruby and Jekyll on Windows
    - ```set LC_ALL=en_US.UTF-8```
 9. use the created shortcut to open the Ruby Console
    - go to your jekyll project e.g. ```cd %userprofile%\tmp\github-pages\```
-   - start jekyll using ```jekyll serve --watch```
-      - open your browser and visit <http://localhost:4000>
-      - if links don't work, change ```url:``` in \_config.yml to the above address, but don't comit it to the repo!
+   - start jekyll using[^jekyll_serve_config]
+   {% highlight bash %}jekyll serve --watch --config _config.yml,_config_local.yml
+   {% endhighlight %}
+    - open your browser and visit <http://localhost:4000>
 
 *setrbvars* does not exist
 ---
@@ -52,3 +53,5 @@ REM set LANG=en_US.UTF-8
 REM Display Ruby version
 ruby.exe -v
 {% endhighlight %}
+
+[^jekyll_serve_config]: With explicitly specifying the config files we overwrite parameters in the first config file with parameters specified in the second config file, thus we can define in the second file e.g. a local url.

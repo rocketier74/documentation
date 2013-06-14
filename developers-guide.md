@@ -30,7 +30,7 @@ $ rvm gemset create jekyll
 $ echo 'rvm gemset use jekyll' >> .rvmrc
 {% endhighlight %}
 
-### Install Required Gems[^5]
+### Install Required Gems
 
 {% highlight bash %}
 gem install jekyll   # needed for testing building the site
@@ -50,6 +50,12 @@ Open a terminal window, cd into the project folder and run jekyll from the proje
 jekyll build --watch
 {% endhighlight %}
 
+If you want to overwrite certain variables in the local environment, you can specify these variables in \_config\_local.yml, e.g. you can specify ```url: http://localhost:4000``` in \_config\_local.yml. To use the local config file start the build process as follows:
+
+{% highlight bash %}
+jekyll build --watch --config _config.yml,_config_local.yml
+{% endhighlight %}
+
 Leave this window running while you work.
 Any time you change a file, jekyll will rerender it into the `_site` folder.
 Changes to \_config.yml will only be recognized after a restart of the jekyll server.
@@ -61,11 +67,6 @@ Open another terminal window, cd into the project folder, then cd into the `_sit
 {% highlight bash %}
 serve
 {% endhighlight %}
-
-text[^1] ... 
-
-[^1]: A note about my foot.
-[^5]: A note about my foot.
 
 This will start a webserver in the `_site` folder.
 Open a browser and visit `http://localhost:4000/` and you should see the site.
