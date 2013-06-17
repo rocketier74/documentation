@@ -5,7 +5,7 @@ chapter: einleitung
 ---
 
 Formatierung des Handbuchs
-* Kapitel, derzeitige Bereiche und im Learnweb anklickbare Button werden **fett** gedruckt, damit schneller ersichtlich ist, was Sie nacheinander drücken müssen, um schnell an Ihr Ziel zu kommen.[^12]
+* Kapitel, derzeitige Bereiche und im Learnweb anklickbare Button werden **fett** gedruckt, damit schneller ersichtlich ist, was Sie nacheinander drücken müssen, um schnell an Ihr Ziel zu kommen.[^spezielleFußnote]
 * Unterpunkte sind zur besseren Übersicht ***kursiv und unterstrichen***
 * Wichtige Passagen sind *kursiv*
 
@@ -22,4 +22,4 @@ Szenarien, die die Anwendungsmöglichkeiten **darstellen**, sind eingerückt, ku
 Dieses ist ein Beispiel für eine Randnotiz, welche Hintergrundwissen vermittelt.
 </div>
 
-[^12]: dieses ist eine Fußnote
+[^spezielleFußnote]: dieses ist eine Fußnote
