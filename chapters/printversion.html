@@ -12,7 +12,7 @@ title: Printversion des Handbuchs
     
       {% include header.html %}
       
-{% assign site_pages = (site.pages | sort:"name") %}
+{% assign site_pages = (site.pages | sort:"name")  %}
 {% assign chapter_number = 0 %}
 <section class="content">
   {% for chapter in site.chapters %}
@@ -31,13 +31,13 @@ title: Printversion des Handbuchs
           {% endfor %}
           
           {% assign subchapter_number = 0 %}
-          {% for page in site_pages %}
-            {% if page.url contains url %}
-              {% unless page.url == indexurl %}
+          {% for site_page in site_pages %}
+            {% if site_page.url contains url %}
+              {% unless site_page.url == indexurl %}
                 {% assign subchapter_number = subchapter_number | plus: '1' %}
-                <h1 class="title recipe_title">{{ chapter_number }}.{{ subchapter_number }}. {{page.title}}</h1>
+                <h1 class="title recipe_title">{{ chapter_number }}.{{ subchapter_number }}. {{site_page.title}}</h1>
                 <section class="content-block recipe-content recipe_content"  markdown="1">
-                    {{ page.content }}
+                    {{ site_page.content }}
                 </section>
               {% endunless %}
             {% endif %}

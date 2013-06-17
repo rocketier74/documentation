@@ -32,3 +32,9 @@
         box-shadow:none !important;
         text-shadow: none !important;
 }
+
+@page {
+  @bottom-right {
+    content: counter(page) " of " counter(pages);
+  }
+}
