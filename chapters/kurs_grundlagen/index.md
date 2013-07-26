@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: Der Kursbereich (Basics)
+title: Kurseinstellungen und Kursbearbeitung (Basics)
 chapter: kurs grundlagen
 ---
 
