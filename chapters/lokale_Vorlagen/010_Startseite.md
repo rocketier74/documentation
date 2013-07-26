@@ -6,8 +6,7 @@ title: Die Startseite
 
 Die Lernplattform Learnweb wird über folgende Adresse erreicht:
 
-* [{{site.moodle_sso}}]({{site.moodle_sso}}) 	(direkter Login erforderlich)<br />
-*oder unter*
+* [{{site.moodle_sso}}]({{site.moodle_sso}}) 	(automatischer Login) oder unter	
 * [{{site.moodle_url}}]({{site.moodle_url}}) 	(manueller Login).
 
 Die Startseite der Lernplattform (siehe Abbildung) ist in verschiedene Blöcke aufgeteilt, die im nachfolgend kurz erklärt werden.

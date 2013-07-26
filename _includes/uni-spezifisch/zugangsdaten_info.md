@@ -1,6 +1,6 @@
 ##Generelle Informationen zu den Zugangsdaten##
 
-Verwenden Sie zur Anmeldung die zentrale Nutzerkennung (ZIV Account) der Uni Münster.
+Verwenden Sie zur Anmeldung die *zentrale Nutzerkennung (ZIV Account)* der Uni Münster.
 Der Anmeldename hat i.d.R. die allgemeine Form: f_must01 (für den Benutzer Fabian Mustermann).
 Das Kennwort ist Ihr Standartpasswort.
 

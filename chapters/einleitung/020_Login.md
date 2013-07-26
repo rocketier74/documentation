@@ -2,10 +2,18 @@
 layout: recipe
 title: Login und Benutzerdaten
 ---
+**SSO-Login**
+Wenn Sie die Seite über [{{site.moodle_sso}}]({{site.moodle_sso}}) aufgerufen haben, öffnet sich ein Fenster und Sie werden aufgefordert, sich über Ihren Benutzernamen zu authentifizieren. 
+Erforderlich ist Ihre persönliche *zentrale Nutzerkennung (ZIV-Account, s.u.)* und das dazugehörige persönliche Passwort. 
 
-Der Login erfolgt mit der Nutzerkennung über den Login-Link im Kopfbereich der Seite, oder über die nachträgliche Login-Abfrage (siehe Abbildung) bei Zugriff auf Bereiche, für die eine Authentifizierung notwendig ist.
+![bild des Login-Formular]({{site.url}}/images/screenshots/sso_login.png 'Das Login-Formular')
+Abbildung: Fenster bei Aufruf der Plattform über die SSO-Adresse
 
-![bild des Login-Formular]({{site.url}}/images/screenshots/login_form.png 'Das Login-Formular')
-Abbildung: Bei Zugriff auf Bereiche, für die eine Authentifizierung notwendig ist, wird dieses Formular angezeigt.
+**WWW-Login**
+Wenn Sie die Seite über [{{site.moodle_url}}]({{site.moodle_url}}) aufgerufen haben, können Sie sich über die Login-Box rechts auf der Startseite anmelden.<br />
+Alternativ können Sie hier auch über den grünen Button auf SSO umschalten. 
+
+![bild des Login-Formular]({{site.url}}/images/screenshots/www_login.png 'Das Login-Formular')
+Abbildung: Login-Box rechts auf der Startseite
 
 {% include uni-spezifisch/zugangsdaten_info.md %}
