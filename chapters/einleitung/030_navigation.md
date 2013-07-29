@@ -38,8 +38,8 @@ Abbildung: Blöcke können zur besseren Übersichtlichkeit ein- und ausgeklappt 
 
 <div class="tip" markdown="1" >
 #####Hinweis: Sichtbereich vergrößern – unwichtige Blöcke ausblenden#####
-Die Docking-Funktion erlaubt Ihnen ihre Blöcke ganz aus dem Sichtfeld zu nehmen und an den Bildschirmrand zu heften, damit mehr Platz sowie mehr Übersichtlichkeit für den mittleren Hauptbereich der Seite entstehen.<br />
-*Diese vergrößert sich, sobald alle Blöcke einer Seite ins Navigationsdock verschoben wurden!*
+Die Docking-Funktion erlaubt Ihnen ihre Blöcke ganz aus dem Sichtfeld zu nehmen und an den Bildschirmrand zu heften, damit mehr Platz sowie mehr Übersichtlichkeit für den mittleren Hauptbereich der Seite entstehen.  
+*Diese vergrößert sich, sobald alle Blöcke einer Seite ins Navigationsdock verschoben wurden!*  
 Um einen Block ins Navigationsdock zu verschieben, klicken Sie auf das Symbol ![Symbol Block in den Dock-Bereich verschieben][block_to_dock] rechts oben im Block (neben der Überschrift des Blocks).
 Das Navigationsdock erscheint nun links am Bildschirmrand.
 Sobald Sie mit der Maus über die Blocküberschrift am linken Bildschirmrand fahren, fährt der Block wie ein Menü aus und zeigt seinen Inhalt.

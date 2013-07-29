@@ -8,17 +8,16 @@ Ihr Profil und die Profile anderer Teilnehmer (hier lediglich die zur Freigabe b
 
 
 
-Sie können Ihr Profil über den Block Navigation anzeigen lassen, indem Sie auf <br />
-**Mein Profil**<br />
-**Profil anzeigen**<br />
-**Profil bearbeiten**<br />
+Sie können Ihr Profil über den Block Navigation anzeigen lassen, indem Sie auf  
+**Mein Profil** -> **Profil anzeigen** -> **Profil bearbeiten**  
 klicken.
 
-
-
 ![Profil bearbeiten]({{site.url}}/images/screenshots/profil_bearbeiten_1.png)
-Abbildung: Blöcke können zur besseren Übersichtlichkeit ein- und ausgeklappt werden.
+Abbildung: Profileinstellungen.
+
+Wenn Sie weiter nach unten scrollen, finden Sie die Möglichkeit, in dem Feld Beschreibung Informationen zu Ihrer Person zu hinterlegen und ein Nutzerbild hochzuladen.  
+Ganz unten auf der Seite müssen die Änderungen über den Button **Profil aktualisieren** abschließend bestätigt werden.
 
 ![Profil bearbeiten mit Upload]({{site.url}}/images/screenshots/profil_bearbeiten_2.png)
-Abbildung: Blöcke können zur besseren Übersichtlichkeit ein- und ausgeklappt werden.
+Abbildung: Beschreibung und Nutzerbild bei den Profileinstellungen.
 
