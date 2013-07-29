@@ -11,7 +11,7 @@ Ihr Profil und die Profile anderer Teilnehmer (hier lediglich die zur Freigabe b
 Sie können Ihr Profil über den Block Navigation anzeigen lassen, indem Sie auf <br />
 **Mein Profil**<br />
 **Profil anzeigen**<br />
-**Profil bearbeiten<br />
+**Profil bearbeiten**<br />
 klicken.
 
 
